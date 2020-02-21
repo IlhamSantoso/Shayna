@@ -4,7 +4,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 mt-5">
-          <carousel class="product-slider" :items="3" :nav="false" :autoplay="true" :dots="true">
+          <carousel class="product-slider" :items="3" :nav="false" :autoplay="true" :dots="false">
             <div class="product-item">
               <div class="pi-pic">
                 <img src="img/mickey1.jpg" alt />
@@ -15,15 +15,15 @@
                     </a>
                   </li>
                   <li class="quick-view">
-                    <a href="product.html">+ Quick View</a>
+                    <router-link to="/product">+ Quick View</router-link>
                   </li>
                 </ul>
               </div>
               <div class="pi-text">
                 <div class="catagory-name">Coat</div>
-                <a href="#">
+                <router-link to="/product">
                   <h5>Mickey Baggy</h5>
-                </a>
+                </router-link>
                 <div class="product-price">
                   $14.00
                   <span>$35.00</span>
