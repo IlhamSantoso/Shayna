@@ -93,7 +93,7 @@
                     <h4>$495.00</h4>
                   </div>
                   <div class="quantity">
-                    <a href="shopping-cart.html" class="primary-btn pd-cart">Add To Cart</a>
+                    <router-link to="/cart" class="primary-btn pd-cart">Add To Cart</router-link>
                   </div>
                 </div>
               </div>
@@ -146,6 +146,7 @@ export default {
 
 <style scoped>
 .product-thumbs .pt {
-  margin-right: 14px;
+  margin-right: 7px;
+  margin-left: 7px;
 }
 </style>
